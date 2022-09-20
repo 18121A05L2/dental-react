@@ -27,7 +27,7 @@ function top() {
       </div>
 
       {/* ***************search*********************** */}
-      <div className="bg-white flex items-center  max-w-[23rem] h-[2.94rem] rounded-[1.88rem] px-3">
+      <div className="bg-white flex items-center  w-[100%] h-[2.94rem] rounded-[1.88rem] px-3">
         <img
           className="w-[1.25rem] h-[1.25rem] "
           src="/home/search.png"
