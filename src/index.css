@@ -42,7 +42,7 @@
     @apply flex flex-col gap-5;
   }
   .clinic_map {
-    @apply flex gap-[1.3rem];
+    @apply  flex flex-col gap-5 relative pb-[20rem];
   }
   .find_section {
     @apply flex flex-col w-[100%] gap-[1.5rem];

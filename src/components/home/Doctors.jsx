@@ -5,7 +5,7 @@ function Doctors() {
     <div className="doctor_section">
       <div className=" flex justify-between ">
         <img
-          className="w-[13.9rem]  h-[13.13rem]"
+          className="w-[15rem]  h-[14rem]"
           src="/home/homedoctor.png"
           alt="homedoctor"
         ></img>

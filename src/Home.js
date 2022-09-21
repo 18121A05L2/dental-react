@@ -12,6 +12,7 @@ import Insurence from "./components/home/Insurence";
 import Ngo from "./components/home/Ngo";
 import Bottom from "./components/home/Bottom";
 import Footer from './components/Footer';
+import SecurePayments from './components/home/SecurePayments';
 
 function Home() {
   return (
@@ -21,6 +22,12 @@ function Home() {
         <Top />
         {/* ****************************** Temperature section *********** */}
         <Temperature />
+        {/* ************************************** Book Appointment ******************************** */}
+        <h1 className="caption">Book Appointment</h1>
+        <Appointment />
+        {/* *************************************** Clinic Map ************************************************ */}
+        <h1 className="caption">Clinic Map</h1>
+        <ClinicMap />
 
         {/* ------------------------------  Doctor Ratings -------------------------------- */}
         <h1 className="caption">Doctor Ratings</h1>
@@ -59,29 +66,24 @@ function Home() {
           <ChooseProblem text="Extraction" icon="/home/pextraction.png" />
         </div>
 
-        {/* *********************************** Choose Consultation ********************************************* */}
+        {/* *********************************** Choose Consultation *********************************************
         <h1 className="caption">Choose Consultation</h1>
-        <Consultation />
+        <Consultation /> */}
 
-        {/* ************************************** Book Appointment ******************************** */}
-        <h1 className="caption">Book Appointment</h1>
-        <Appointment />
-        {/* *************************************** Clinic Map ************************************************ */}
-        <h1 className="caption">Clinic Map</h1>
-        <ClinicMap />
         {/* **************************************** Find Your Doctor ****************************************** */}
         <h1 className="caption">Find Your Doctor</h1>
-        <div className="find_section">
+        <div className="find_section relative pb-80">
           <FindDoctor image="/home/julie.png" text="Dr. Julie Smith" />
           <FindDoctor image="/home/john.png" text="Dr. John Gibbs" />
           <FindDoctor image="/home/karen.png" text="Dr. Karen Lane" />
           <FindDoctor image="/home/brian.png" text="Dr. Brian Stanley" />
+          <SecurePayments/>
         </div>
 
         {/* ******************************* Doctor of the Month *************************** */}
         <h1 className="caption">Doctor Of The Month</h1>
         <Doctors />
-        
+
         {/* ********************************************  Insurence ************************************************** */}
         <h1 className="caption">Insurence</h1>
         <div className="insurence_section">

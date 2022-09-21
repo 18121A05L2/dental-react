@@ -62,12 +62,12 @@ function Footer() {
       {/* ***********************Play store *************** */}
       <div className="flex gap-5">
         <img
-          className="bg-black h-[2.18rem] w-[6.9rem] rounded"
+          className="h-[2.18rem] w-[6.9rem] rounded"
           src="/home/google_store.png"
           alt="google"
         ></img>
         <img
-          className="bg-black h-[2.18rem] w-[6.9rem] rounded"
+          className=" h-[2.18rem] w-[6.9rem] rounded"
           src="/home/apple_store.png"
           alt="apple"
         ></img>
