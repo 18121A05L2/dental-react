@@ -12,7 +12,7 @@ function Ngo({ text, icon }) {
         ></img>
       </div>
 
-      <div className="w-[10.9rem] h-[8.2rem] rounded-[1.9rem] gap-[1.3rem]  flex flex-col  items-center justify-center   bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)]  ">
+      <div className="w-[10.9rem] h-[8.2rem] rounded-[1.9rem]   flex flex-col  items-center justify-center   bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)]  ">
         <div
           onClick={() => setIsClicked(!isClicked)}
           className="relative flex items-center"
@@ -27,7 +27,7 @@ function Ngo({ text, icon }) {
           )}
         </div>
 
-        <div className="leading-[1.25rem] flex justify-center items-center text-center  text-white font-[700]  ">
+        <div className="leading-[1.25rem] flex justify-center items-center text-center  text-white font-[700] min-h-[3.4rem] ">
           <span>{text}</span>
         </div>
       </div>

@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 
-function top() {
+function Top() {
+  const [inputText, setInputText] = useState("")
+  console.log("Input text : "+inputText)
+
   return (
     <div className="top_section">
       <div className="text-black flex justify-between">
@@ -34,6 +37,7 @@ function top() {
           alt="search"
         ></img>
         <input
+          onChange={(e) => setInputText(e.target.value)}
           className="font-[700] pl-3 outline-none "
           placeholder="Search"
         ></input>
@@ -42,4 +46,4 @@ function top() {
   );
 }
 
-export default top
+export default Top

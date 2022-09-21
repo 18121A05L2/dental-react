@@ -1,6 +1,7 @@
 import React from "react";
 
 function Temperature() {
+  const temperature = "27'C";
   return (
     <div className="temperature_section  ">
       <div>
@@ -35,8 +36,9 @@ function Temperature() {
         <p className="w-[1px]  h-[9.9rem] border-r-[1.4px] border-dashed border-[#211F2B]"></p>
         <p className="font-[400]">Low</p>
       </div>
-      <div className="w-[4.25rem]  h-[13rem] rounded-full border-[3px] border-white">
-        <div className="flex flex-col items-center gap-4 pt-14">
+      <div className="w-[4.25rem]   h-[13rem] rounded-full border-[3px] border-white relative z-10 ">
+        <div className=" absolute   -z-10 h-[13rem] w-[4.25rem] rounded-full   bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]"></div>
+        <div className="flex flex-col items-center gap-4 pt-14 z-">
           <div className="w-[18px] h-[18px] bg-white rounded-full flex justify-center items-center">
             <img
               className="w-[11px] h-[11px]"
@@ -45,7 +47,7 @@ function Temperature() {
             ></img>
           </div>
 
-          <h1>27'C</h1>
+          <h1>{temperature}</h1>
         </div>
       </div>
     </div>
