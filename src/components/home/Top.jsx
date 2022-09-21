@@ -7,15 +7,15 @@ function Top() {
 
   return (
     <div className="top_section">
-      <div className="text-black flex justify-between items-center pb-3">
+      <div className=" fixed rounded-xl bg-[#F2F7FB] py-2 right-[1.56rem] top-[1.56rem] left-[1.56rem] z-50  text-black flex justify-between items-center pb-3">
         <img
           onClick={() => setIsMenuClicked(!isMenuClicked)}
           className="w-[1.5rem] h-[1.5rem] "
           src="/home/menub.png"
           alt="menu"
         ></img>
-        {isMenuClicked && (
-          <div className="absolute z-40 flex flex-col gap-2 top-16 bg-[#F2F7FB] p-4 border-2 rounded-[0.7rem]">
+        {/* {isMenuClicked && (
+          <div className=" absolute z-40 flex flex-col gap-2 top-16 bg-[#F2F7FB] p-4 border-2 rounded-[0.7rem]">
             <h1 className='font-[700] text-[0.813rem] leading-[1rem]'>Download App Now!</h1>
             <div className="flex justify-between">
               <img
@@ -38,9 +38,9 @@ function Top() {
               </div>
             </div>
           </div>
-        )}
+        )} */}
 
-        <div className="fixed right-[1.56rem] z-50 bg-[#F2F7FB] flex justify-around shadow-[-5px_-5px_10px_#FFFFFF,5px_5px_10px_#D3E7F7] rounded-full text-black w-[20rem] h-[2.5rem]">
+        <div className=" bg-[#F2F7FB] flex justify-around shadow-[-5px_-5px_10px_#FFFFFF,5px_5px_10px_#D3E7F7] rounded-full text-black w-[20rem] h-[2.5rem]">
           <div className=" flex justify-evenly px-2 items-center w-[6.9rem] h-[2.5rem] rounded-full  ">
             <img
               className="w-[1.125rem] h-[1.125rem]"
@@ -72,11 +72,6 @@ function Top() {
             </p>
           </div>
         </div>
-        {/* <img
-          className="w-[1.5rem] h-[1.5rem]"
-          src="/home/settings.png"
-          alt="settings"
-        ></img> */}
       </div>
       <div className="flex justify-between">
         <h1 className=" font-['Kumbh_Sans'] font-[900] text-[1.75rem] leading-[2.2rem] text-[#211F2B] ">

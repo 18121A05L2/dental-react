@@ -26,7 +26,7 @@ function ClinicMap() {
       </div>
 
       <div
-        className="bg-[#2B275A] absolute top-[10rem] -left-[1.56rem] -right-[1.56rem] "
+        className="bg-[#2B275A] absolute top-[11rem] -left-[1.56rem] -right-[1.56rem] "
         // style={{
         //   backgroundImage: 'url("/home/smartphone_two_hands.png")',
         //   backgroundRepeat: "no-repeat",
