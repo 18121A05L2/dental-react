@@ -22,12 +22,12 @@ function Insurence({ icon, text }) {
           className="relative  flex items-center "
         >
           <img
-            className="w-[1.8rem] h-[1.8rem] "
+            className="w-[2.7rem] h-[2.7rem] "
             src="/home/ellipsewhite.png"
             alt="ellipse White"
           ></img>
           {isClicked && (
-            <div className="w-[0.625rem] h-[0.625rem] right-[0.6rem] rounded-full bg-[#FF8412] absolute shadow-[0px_0Px_10px_5px_#E0965B]"></div>
+            <div className="w-[0.8rem] h-[0.8rem] right-[0.93rem] top-[0.97rem] rounded-full bg-[#FF8412] absolute shadow-[0px_0Px_10px_5px_#E0965B]"></div>
           )}
         </div>
       </div>

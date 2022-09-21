@@ -18,12 +18,12 @@ function Ngo({ text, icon }) {
           className="relative flex items-center"
         >
           <img
-            className="w-[2rem] h-[2rem] "
+            className="w-[2.7rem] h-[2.7rem] "
             src="/home/ngoellipse.png"
             alt="ngoellipse"
           ></img>
           {isClicked && (
-            <div className="w-[0.63rem] h-[0.63rem] bg-[#FF8412] right-[0.7rem] absolute rounded-full shadow-[0px_0px_10px_5px] shadow-[#FF8412]/60 "></div>
+            <div className="w-[0.8rem] h-[0.8rem] bg-[#FF8412] right-[0.96rem] absolute rounded-full shadow-[0px_0px_10px_5px] shadow-[#FF8412]/60 "></div>
           )}
         </div>
 

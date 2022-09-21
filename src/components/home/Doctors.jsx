@@ -3,7 +3,7 @@ import React from "react";
 function Doctors() {
   return (
     <div className="doctor_section">
-      <div className=" flex justify-around ">
+      <div className=" flex justify-between ">
         <img
           className="w-[13.9rem]  h-[13.13rem]"
           src="/home/homedoctor.png"

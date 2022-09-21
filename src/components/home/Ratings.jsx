@@ -1,4 +1,5 @@
 import React from 'react'
+import RatingInset from "../../images/ratinginset.png"
 
 
 function Ratings({icon,heading,text}) {
@@ -11,7 +12,16 @@ function Ratings({icon,heading,text}) {
           alt="icon"
         ></img>
       </div>
-      <div className={`w-[18.25rem] h-[6rem] flex justify-center items-center z-0 `}>
+
+      <div
+        className={`w-[18.25rem] h-[6rem] flex justify-center items-center z-0 relative  `}
+        style={{
+          backgroundImage: `url(${RatingInset})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize : 'cover',
+          
+        }}
+      >
         <div className="  flex justify-between items-center gap-[1.5rem]  ">
           <div className="flex flex-col justify-center max-w-[8.6rem] ">
             <h1 className="font-[700]  ">{heading}</h1>
