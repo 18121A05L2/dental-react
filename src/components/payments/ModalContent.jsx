@@ -9,7 +9,7 @@ function ModalContent() {
       <div className="flex justify-end">
         <img
           onClick={() => setIsOpen(false)}
-          className="w-[1.3rem] h-[1.3rem]"
+          className="w-[1.5rem] h-[1.5rem]"
                   src="/payments/x.png"
                   alt="x"
         ></img>

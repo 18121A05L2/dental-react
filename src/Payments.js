@@ -69,10 +69,7 @@ function Payments() {
       </div>
 
       {/* ************************* Card ******************** */}
-      <div
-        className="w-[23.5rem] h-[13.5rem]  rounded-[1.3rem] p-6 flex flex-col justify-between bg-red-30 bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)]"
-        
-      >
+      <div className="w-[23.5rem] h-[13.5rem]  rounded-[1.3rem] p-6 flex flex-col justify-between bg-red-30 bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)]">
         <div className="flex justify-between">
           <img
             className="w-[3.8rem] h-[2.6rem]"
@@ -94,7 +91,10 @@ function Payments() {
           <p>9876</p>
           <p>4356</p>
         </div>
-        <div className="flex justify-between  text-[#EAEAF4]">
+        <div
+          className="flex justify-between  text-[#EAEAF4]"
+          style={{ textShadow: "-1px -1px 4px #746EBD, 1px 1px 4px #3F3A84" }}
+        >
           <p className="font-[700] text-[1.5rem] leading-[1.9rem]">
             Nicholous Lodge
           </p>
