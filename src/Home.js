@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import ClinicMap from "./components/home/ClinicMap";
 import Appointment from "./components/home/Appointment";
 import Top from "./components/home/Top";
@@ -11,8 +11,9 @@ import FindDoctor from "./components/home/FindDoctor";
 import Insurence from "./components/home/Insurence";
 import Ngo from "./components/home/Ngo";
 import Bottom from "./components/home/Bottom";
-import Footer from './components/Footer';
-import SecurePayments from './components/home/SecurePayments';
+import Footer from "./components/Footer";
+import SecurePayments from "./components/home/SecurePayments";
+import Slider from "./components/home/Slider";
 
 function Home() {
   return (
@@ -22,6 +23,11 @@ function Home() {
         <Top />
         {/* ****************************** Temperature section *********** */}
         <Temperature />
+        <div className="flex rounded-full justify-around items-center m-auto w-[2.2rem] h-[0.7rem] shadow-[inset_-1px_-1px_2px_#FFFFFF,inset_1px_1px_2px_#D3E0EB]">
+          <div className="bg-black w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
+          <div className="w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
+          
+        </div>
         {/* ************************************** Book Appointment ******************************** */}
         <h1 className="caption">Book Appointment</h1>
         <Appointment />
@@ -52,18 +58,25 @@ function Home() {
             heading=" 4 Out of 5"
             text="Ratings On Vitals By Our 9965 Patients."
           />
+          <Slider />
         </div>
         {/* ******************************************* Choose Problem Section *********************************** */}
         <h1 className="caption">Choose Problem</h1>
-        <div className="problem_section">
-          <ChooseProblem text="Anesthetics" icon="/home/panesthetics.png" />
-          <ChooseProblem text="Braces" icon="/home/pbraces.png" />
-          <ChooseProblem text="Bridges" icon="/home/pbridges.png" />
-          <ChooseProblem text="Cleaning" icon="/home/pcleaning.png" />
-          <ChooseProblem text="Cosmetic Dentistry" icon="/home/pcosmetic.png" />
-          <ChooseProblem text="Crown" icon="/home/pcrown.png" />
-          <ChooseProblem text="Dentreus" icon="/home/pdentreus.png" />
-          <ChooseProblem text="Extraction" icon="/home/pextraction.png" />
+        <div>
+          <div className="problem_section pb-8">
+            <ChooseProblem text="Anesthetics" icon="/home/panesthetics.png" />
+            <ChooseProblem text="Braces" icon="/home/pbraces.png" />
+            <ChooseProblem text="Bridges" icon="/home/pbridges.png" />
+            <ChooseProblem text="Cleaning" icon="/home/pcleaning.png" />
+            <ChooseProblem
+              text="Cosmetic Dentistry"
+              icon="/home/pcosmetic.png"
+            />
+            <ChooseProblem text="Crown" icon="/home/pcrown.png" />
+            <ChooseProblem text="Dentreus" icon="/home/pdentreus.png" />
+            <ChooseProblem text="Extraction" icon="/home/pextraction.png" />
+          </div>
+          <Slider />
         </div>
 
         {/* *********************************** Choose Consultation *********************************************
@@ -77,7 +90,8 @@ function Home() {
           <FindDoctor image="/home/john.png" text="Dr. John Gibbs" />
           <FindDoctor image="/home/karen.png" text="Dr. Karen Lane" />
           <FindDoctor image="/home/brian.png" text="Dr. Brian Stanley" />
-          <SecurePayments/>
+          <Slider />
+          <SecurePayments />
         </div>
 
         {/* ******************************* Doctor of the Month *************************** */}
@@ -124,4 +138,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;

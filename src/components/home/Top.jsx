@@ -7,7 +7,7 @@ function Top() {
 
   return (
     <div className="top_section">
-      <div className=" fixed rounded-xl bg-[#F2F7FB] py-2 right-[1.56rem] top-[1.56rem] left-[1.56rem] z-50  text-black flex justify-between items-center pb-3">
+      <div className=" fixed rounded-xl bg-[#F2F7FB] py-2 right-[1rem] top-[1rem] left-[1rem] z-50 p-[0.6rem]   text-black flex justify-between items-center pb-3">
         <img
           onClick={() => setIsMenuClicked(!isMenuClicked)}
           className="w-[1.5rem] h-[1.5rem] "
@@ -73,7 +73,7 @@ function Top() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between pt-2">
         <h1 className=" font-['Kumbh_Sans'] font-[900] text-[1.75rem] leading-[2.2rem] text-[#211F2B] ">
           LET'S <span className="text-[#FF8412]">FIND </span>YOUR CONSULTANT
         </h1>

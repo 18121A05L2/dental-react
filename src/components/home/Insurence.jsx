@@ -27,7 +27,7 @@ function Insurence({ icon, text }) {
             alt="ellipse White"
           ></img>
           {isClicked && (
-            <div className="w-[0.8rem] h-[0.8rem] right-[0.93rem] top-[0.97rem] rounded-full bg-[#FF8412] absolute shadow-[0px_0Px_10px_5px_#E0965B]"></div>
+            <div className="w-[0.7rem] h-[0.7rem] right-[0.98rem] top-[0.99rem] rounded-full bg-[#FF8412] absolute shadow-[0px_0Px_10px_5px] shadow-[#FF8412]/60 "></div>
           )}
         </div>
       </div>
