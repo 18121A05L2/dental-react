@@ -39,7 +39,7 @@ function Temperature() {
         <p className="w-[1px]  h-[9.9rem] border-r-[1.4px] border-dashed border-[#211F2B]"></p>
         <p className="font-[400]">Low</p>
       </div>
-      <div className="w-[4.25rem] bg-red-300  bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]  h-[13rem] rounded-full border-[3px] border-white relative z-10 ">
+      <div className="w-[4.25rem]  bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]  h-[13rem] rounded-full border-[3px] border-white relative z-10 ">
         {/* <div className=" absolute   -z-10 h-[13rem] w-[4.25rem] scale-[0.95] rounded-full   bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]"></div> */}
         <div className="flex flex-col items-center gap-4 pt-14 z-">
           <div className="w-[18px] h-[18px] bg-white rounded-full flex justify-center items-center">
