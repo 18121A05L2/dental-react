@@ -25,16 +25,7 @@ function ClinicMap() {
         </div>
       </div>
 
-      <div
-        className="bg-[#2B275A] absolute top-[11rem] -left-[1.56rem] -right-[1.56rem] "
-        // style={{
-        //   backgroundImage: 'url("/home/smartphone_two_hands.png")',
-        //   backgroundRepeat: "no-repeat",
-        //   backgroundPosition: "left",
-        //   width: "",
-        //   height: " 14rem",
-        // }}
-      >
+      <div className="bg-[#2B275A] absolute top-[11rem] -left-[1.56rem] -right-[1.56rem] ">
         <div className="flex">
           <div className="flex flex-col gap-3 max-w-[50%] pl-[1rem] py-[1.5rem]">
             <div className="flex items-center gap-2 ">
@@ -71,7 +62,7 @@ function ClinicMap() {
           <div className="w-[50%] relative">
             <img
               className=" absolute bottom-[2.4525rem] scale-[1.5] right-[3.35rem] "
-              src="/home/smartphone_two_hands.png"
+              src="/home/smartphone.png"
               alt="phone"
             ></img>
           </div>
