@@ -7,7 +7,7 @@ function Top() {
 
   return (
     <div className="top_section">
-      <div className=" fixed rounded-xl bg-[#F2F7FB] py-2 right-[1rem] top-[1rem] left-[1rem] z-50 p-[0.6rem]   text-black flex justify-between items-center pb-3">
+      <div className=" fixed rounded-[1.9rem] h-[3.5rem] w-[24.563rem] bg-[#2B275A] py-2 right-[1rem] top-[1rem] left-[1rem] z-50 p-[0.6rem]   text-black flex justify-between items-center pb-3">
         <img
           onClick={() => setIsMenuClicked(!isMenuClicked)}
           className="w-[1.5rem] h-[1.5rem] "
@@ -40,14 +40,14 @@ function Top() {
           </div>
         )} */}
 
-        <div className=" bg-[#F2F7FB] flex justify-around shadow-[-5px_-5px_10px_#FFFFFF,5px_5px_10px_#D3E7F7] rounded-full text-black w-[20rem] h-[2.5rem]">
+        <div className=" bg-[#2B275A]   flex justify-around shadow-[-3px_-3px_5px_#35306A,3px_3px_5px_#201D4D] rounded-full text-black w-[20rem] h-[2.5rem]">
           <div className=" flex justify-evenly px-2 items-center w-[6.9rem] h-[2.5rem] rounded-full  ">
             <img
               className="w-[1.125rem] h-[1.125rem]"
               src="/home/cities.png"
               alt="cities"
             ></img>
-            <p className=" font-[700] text-[0.813rem] leading-[1rem]">
+            <p className=" font-[700] text-[0.813rem] leading-[1rem] text-white">
               50 Cities
             </p>
           </div>
@@ -57,7 +57,7 @@ function Top() {
               src="/home/patients.png"
               alt="patients"
             ></img>
-            <p className=" font-[700] text-[0.813rem] leading-[1rem] whitespace-nowrap">
+            <p className=" font-[700] text-[0.813rem] leading-[1rem] whitespace-nowrap text-white">
               1 Lakh Patients
             </p>
           </div>
@@ -67,7 +67,7 @@ function Top() {
               src="/home/clinics.png"
               alt="clinic"
             ></img>
-            <p className=" font-[700] text-[0.813rem] leading-[1rem]">
+            <p className=" font-[700] text-[0.813rem] leading-[1rem] text-white">
               60 Clinics
             </p>
           </div>
