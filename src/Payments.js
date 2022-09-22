@@ -9,7 +9,7 @@ function Payments() {
   const [isOpen, setIsOpen] = useRecoilState(modalState);
   return (
     <div
-      className={`p-[1.563rem] pt-[5.063rem] flex  flex-col gap-6 bg-[#F2F7FB] min-h-screen font-['Kumbh_Sans'] text-[#211F2B] pb-[10rem] ${
+      className={`p-[1.563rem] pt-[5.6rem] flex  flex-col gap-6 bg-[#F2F7FB] min-h-screen font-['Kumbh_Sans'] text-[#211F2B] pb-[10rem] ${
         isOpen && "blur "
       } `}
     >
