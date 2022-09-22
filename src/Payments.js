@@ -14,14 +14,14 @@ function Payments() {
       } `}
     >
       {/* ***************************** fixed Header ***************** */}
-      <div className=" fixed rounded-[1.9rem] h-[3.5rem] w-[24.563rem] bg-[#2B275A] py-2 right-[1rem] top-[1rem] left-[1rem] z-50 p-[0.6rem]   text-black flex justify-between items-center pb-3">
+      <div className=" fixed rounded-[1.9rem] h-[3.5rem] w-[24.563rem] bg-[#3E387C] py-2 right-[1rem] top-[1rem] left-[1rem] z-50 p-[0.6rem]   text-black flex justify-between items-center pb-3">
         <img
           className="w-[1.5rem] h-[1.5rem] "
           src="/home/menub.png"
           alt="menu"
         ></img>
 
-        <div className=" bg-[#2B275A]   flex justify-around shadow-[-3px_-3px_5px_#35306A,3px_3px_5px_#201D4D] rounded-full text-black w-[20rem] h-[2.5rem]">
+        <div className=" bg-[#3E387C]   flex justify-around shadow-[0px_0px_8px_3px_#332E64] rounded-full text-black w-[20rem] h-[2.5rem]">
           <div className=" flex justify-evenly px-2 items-center w-[6.9rem] h-[2.5rem] rounded-full  ">
             <img
               className="w-[1.125rem] h-[1.125rem]"
