@@ -51,17 +51,17 @@ function Top() {
               50 Cities
             </p>
           </div>
-          <div className=" flex justify-evenly px-2 items-center w-[8rem] h-[2.5rem] rounded-full  ">
+          <div className=" flex justify-evenly px-2 gap-1 items-center w-[8rem] h-[2.5rem] rounded-full  ">
             <img
               className="w-[0.94rem] h-[1.125rem]"
               src="/home/patients.png"
               alt="patients"
             ></img>
             <p className=" font-[700] text-[0.813rem] leading-[1rem] whitespace-nowrap">
-              1Lakh Patients
+              1 Lakh Patients
             </p>
           </div>
-          <div className=" flex justify-evenly px-2 items-center w-[6.9rem] h-[2.5rem] rounded-full  ">
+          <div className=" flex justify-evenly px-2  items-center w-[6.9rem] h-[2.5rem] rounded-full  ">
             <img
               className="w-[0.813rem] h-[1.125rem]"
               src="/home/clinics.png"

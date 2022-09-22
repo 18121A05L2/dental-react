@@ -21,7 +21,7 @@
     @apply p-[1.56rem] pt-[5rem]  flex flex-col gap-[1.5rem] bg-[#F2F7FB] h-full w-full pb-[2.5rem] font-['Kumbh_Sans'];
   }
   .fixed_bottom {
-    @apply fixed bottom-0 left-0 right-0 flex  items-center justify-between bg-[#423D80] h-[5.938rem] px-6 pt-2 z-50 w-screen rounded-b-2xl  ;
+    @apply fixed bottom-0 left-0 right-0 flex  items-center justify-between bg-[rgba(66,61,128,0.5)] backdrop-blur-sm h-[5.938rem] px-6 pt-2 z-50 w-screen   ;
   }
   .top_section {
     @apply flex flex-col gap-[1.5rem] w-[100%];

@@ -1,12 +1,15 @@
 import React from "react";
 
 function Temperature() {
-  const temperature = "27'C";
+  const temperature = "27°C";
   return (
     <div className="temperature_section  ">
       <div>
         <div className="w-[12.8rem]  h-[8.5rem] bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)] rounded-[1.9rem] p-[1rem] mb-[1.3rem]">
-          <div className="flex justify-end">
+          <div className="flex justify-between">
+            <p className="text-[#FFFFFF] font-[800] text-[2rem]">
+              {temperature}
+            </p>
             <img
               className="w-[3.2rem]  h-[2.2rem] "
               src="/home/cloud.png"
@@ -36,8 +39,8 @@ function Temperature() {
         <p className="w-[1px]  h-[9.9rem] border-r-[1.4px] border-dashed border-[#211F2B]"></p>
         <p className="font-[400]">Low</p>
       </div>
-      <div className="w-[4.25rem]   h-[13rem] rounded-full border-[3px] border-white relative z-10 ">
-        <div className=" absolute   -z-10 h-[13rem] w-[4.25rem] rounded-full   bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]"></div>
+      <div className="w-[4.25rem] bg-red-300  bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]  h-[13rem] rounded-full border-[3px] border-white relative z-10 ">
+        {/* <div className=" absolute   -z-10 h-[13rem] w-[4.25rem] scale-[0.95] rounded-full   bg-[linear-gradient(180deg,#FF8412_0%,#B55700_100%)]"></div> */}
         <div className="flex flex-col items-center gap-4 pt-14 z-">
           <div className="w-[18px] h-[18px] bg-white rounded-full flex justify-center items-center">
             <img
