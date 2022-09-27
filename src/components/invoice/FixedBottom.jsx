@@ -2,9 +2,9 @@ import React from "react";
 
 function FixedBottom() {
   return (
-    <div className=" fixed_bottom ">
-      <div className="flex gap-6">
-        <div className="flex flex-col items-center gap-1">
+    <div className=" fixed_bottom px-3  ">
+      <div className="flex gap-6 items-center">
+        <div className="flex flex-col items-center gap-2 text-center">
           <div className=" flex  w-[2.82rem] h-[2.82rem] rounded-full bg-[#423D80] shadow-[inset_-4px_-4px_30px_#5A54A0,inset_4px_4px_30px_#211D56]">
             <img
               className=" m-auto w-[1.3rem] h-[1.25rem]"
@@ -12,7 +12,7 @@ function FixedBottom() {
               alt="moon"
             ></img>
           </div>
-          <p className="text-white font-[700] text-[0.5rem] leading-[0.65rem] ">
+          <p className="text-white font-[700] text-[0.625rem] leading-[0.65rem] whitespace-nowrap ">
             Dark Mode
           </p>
         </div>

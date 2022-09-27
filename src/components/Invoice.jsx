@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "./Footer";
 import Coupons from "./invoice/Coupons";
 import FixedBottom from "./invoice/FixedBottom";
-import Review from "./invoice/Review";
 import ReviewSlide from "./invoice/ReviewSlide";
 import TopWithBackAndSetting from "./invoice/TopWithBackAndSetting";
 
@@ -11,10 +10,10 @@ function Invoice() {
     
   return (
     <div>
-      <div className="flex flex-col gap-6  bg-[#F2F7FB] p-[1.56rem] text-[#211F2B]  font-['Kumbh_Sans'] ">
+      <div className="flex flex-col gap-10  bg-[#F2F7FB] p-[1.56rem] text-[#211F2B]  font-['Kumbh_Sans'] ">
         <TopWithBackAndSetting />
 
-        <div className="flex gap-4">
+        <div className="flex gap-5">
           <img
             className="w-[9.44rem] h-[8.88rem] rounded-l-[6.25rem] rounded-r-[1.25rem] shadow-[-10px_-10px_20px_#FFFFFF,10px_10px_20px_#D3E7F7]"
             src="/invoice/doctor.png"
@@ -57,7 +56,7 @@ function Invoice() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
           turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
           nec.........
-          <span className="font-[700]">KNOW MORE</span>
+          <span className="font-[700] cursor-pointer">KNOW MORE</span>
         </p>
         <div className="flex justify-between     font-[600] leading-4 text-[0.813rem] text-white ">
           <div className=" w-[7.25rem] h-[3.56rem] flex items-center justify-center  rounded-r-[1.9rem] rounded-l-[1.25rem]   bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)]">
@@ -175,19 +174,14 @@ function Invoice() {
         {/* **************************************** Coupons ************************************* */}
         <h1 className="caption py-2">Coupons</h1>
         <Coupons />
-        {/* ******************************* Reviews ***************************** */}
-        <h1 className="caption py-2">Reviews</h1>
+   
+    
+      </div>
+      {/* ******************************* Reviews ***************************** */}
+      <div className="w-screen ">
+        <h1 className="caption py-2 pl-[1.56rem] bg-[#F2F7FB] ">Reviews</h1>
 
-        <ReviewSlide/>
-        <div className="">
-          <Review image="/home/review1.png" />
-          <Review image="/home/review2.png" />
-          
-          <div className="flex rounded-full justify-around items-center m-auto w-[2.2rem] h-[0.7rem] shadow-[inset_-1px_-1px_2px_#FFFFFF,inset_1px_1px_2px_#D3E0EB]">
-            <div className="bg-black w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
-            <div className="w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
-          </div>
-        </div>
+        <ReviewSlide />
       </div>
       <Footer />
       <FixedBottom />

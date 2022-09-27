@@ -2,7 +2,7 @@ import React from 'react'
 
 function Review({image}) {
   return (
-    <div className="relative  flex flex-col p-6 gap-3 items-center h-[18.5rem] mr-[0.55rem] w-[23rem] rounded-[1.875rem] mt-14 shadow-[-10px_-10px_20px_#FFFFFF,10px_10px_20px_#D3E7F7]">
+    <div className="relative  flex flex-col p-6 gap-3 items-center h-[18.5rem] m-[1.8rem] w-[23rem] rounded-[1.875rem] mt-14 shadow-[-10px_-10px_20px_#FFFFFF,10px_10px_20px_#D3E7F7]">
       <img
         className="absolute -top-20 right-26 w-[12rem] h-[12rem]"
         src={image}
