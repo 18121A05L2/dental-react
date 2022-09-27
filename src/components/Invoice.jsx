@@ -1,10 +1,14 @@
 import React from "react";
 import Footer from "./Footer";
 import Coupons from "./invoice/Coupons";
+import FixedBottom from "./invoice/FixedBottom";
 import Review from "./invoice/Review";
+import ReviewSlide from "./invoice/ReviewSlide";
 import TopWithBackAndSetting from "./invoice/TopWithBackAndSetting";
 
 function Invoice() {
+
+    
   return (
     <div>
       <div className="flex flex-col gap-6  bg-[#F2F7FB] p-[1.56rem] text-[#211F2B]  font-['Kumbh_Sans'] ">
@@ -173,10 +177,20 @@ function Invoice() {
         <Coupons />
         {/* ******************************* Reviews ***************************** */}
         <h1 className="caption py-2">Reviews</h1>
-        <Review image="/home/review1.png" />
-        <Review image="/home/review2.png" />
+
+        <ReviewSlide/>
+        <div className="">
+          <Review image="/home/review1.png" />
+          <Review image="/home/review2.png" />
+          
+          <div className="flex rounded-full justify-around items-center m-auto w-[2.2rem] h-[0.7rem] shadow-[inset_-1px_-1px_2px_#FFFFFF,inset_1px_1px_2px_#D3E0EB]">
+            <div className="bg-black w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
+            <div className="w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
+          </div>
+        </div>
       </div>
       <Footer />
+      <FixedBottom />
     </div>
   );
 }
