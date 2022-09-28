@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Bottom from "./components/home/Bottom";
-import FixedHeader from "./components/home/FixedHeader";
 import DescTop from "./components/invoice/DescTop";
 import More from "./components/invoice/More";
 import Ratings from "./components/invoice/Ratings";
@@ -64,6 +63,7 @@ function DocDescription() {
         <h1 className="caption">More About Doctor</h1>
         <More title="Education" />
         <More title="Specialization" />
+        <More title="Experience" />
         <More title="Achievements" />
         <More title="Membership" />
 
