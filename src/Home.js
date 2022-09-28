@@ -16,6 +16,7 @@ import SecurePayments from "./components/home/SecurePayments";
 import Slider from "./components/home/Slider";
 
 import Stemp from "./components/home/Stemp";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -25,11 +26,10 @@ function Home() {
         <Top />
         {/* ****************************** Temperature section *********** */}
         <Temperature />
-        <Stemp/>
+        <Stemp />
         <div className="flex rounded-full justify-around items-center m-auto w-[2.2rem] h-[0.7rem] shadow-[inset_-1px_-1px_2px_#FFFFFF,inset_1px_1px_2px_#D3E0EB]">
           <div className="bg-black w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
           <div className="w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
-          
         </div>
         {/* ************************************** Book Appointment ******************************** */}
         <h1 className="caption">Book Appointment</h1>
@@ -131,6 +131,13 @@ function Home() {
           <Ngo text="Room To Read India Trust" icon="/home/room.png" />
           <Ngo text="SEWA Rural" icon="/home/sewa.png" />
         </div>
+
+        <Link to="/payments">Payments</Link>
+        <Link to="/invoice">Invoice</Link>
+        <Link to="/description">Description</Link>
+        <Link to="/desc">desc</Link>
+        <Link to="/navigation">Navigaion</Link>
+        
 
         {/* ****************************** Fixed Bottom ********************** */}
         <Bottom />

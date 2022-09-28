@@ -5,6 +5,7 @@ import Home from './Home';
 import Invoice from "./components/Invoice";
 import DocDescription from "./DocDescription";
 import Desc from "./Desc";
+import Navigation from "./Navigation";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
           <Route path="/payments" element={<Payments />}></Route>
           <Route path="/invoice" element={<Invoice />}></Route>
           <Route path="/description" element={<DocDescription />} />
-          <Route path="/desc" element={<Desc/>} />
+          <Route path="/desc" element={<Desc />} />
+          <Route path="/navigation" element={<Navigation/> } />
         
         </Routes>
         
