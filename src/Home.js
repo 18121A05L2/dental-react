@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 import SecurePayments from "./components/home/SecurePayments";
 import Slider from "./components/home/Slider";
 
-import Stemp from "./components/home/Stemp";
+import HomeSlider from "./components/home/HomeSlider";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -24,13 +24,13 @@ function Home() {
       <div className=" app flex flex-col ">
         {/* ************************** Top section *****************/}
         <Top />
-        {/* ****************************** Temperature section *********** */}
-        <Temperature />
-        <Stemp />
-        <div className="flex rounded-full justify-around items-center m-auto w-[2.2rem] h-[0.7rem] shadow-[inset_-1px_-1px_2px_#FFFFFF,inset_1px_1px_2px_#D3E0EB]">
+        {/* ****************************** Temperature section sider *********** */}
+        <HomeSlider/>
+
+        {/* <div className="flex rounded-full justify-around items-center m-auto w-[2.2rem] h-[0.7rem] shadow-[inset_-1px_-1px_2px_#FFFFFF,inset_1px_1px_2px_#D3E0EB]">
           <div className="bg-black w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
           <div className="w-[0.44rem] h-[0.44rem] rounded-full shadow-[-1px_-1px_2px_#FFFFFF,1px_1px_2px_#D3E0EB]"></div>
-        </div>
+        </div> */}
         {/* ************************************** Book Appointment ******************************** */}
         <h1 className="caption">Book Appointment</h1>
         <Appointment />
@@ -137,7 +137,8 @@ function Home() {
         <Link to="/description">Description</Link>
         <Link to="/desc">desc</Link>
         <Link to="/navigation">Navigaion</Link>
-        
+        <Link to="/donate-insurence">Donate-Insurence</Link>
+        <Link to="/location">Location</Link>
 
         {/* ****************************** Fixed Bottom ********************** */}
         <Bottom />
