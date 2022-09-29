@@ -18,7 +18,7 @@ function ChooseProblem({ icon, text }) {
       <div
         className={`w-[9px] h-[9px] bg-[#827BD3] ${
           isClicked &&
-          "bg-[#FF8412] shadow-[0px_0px_10px_5px] shadow-[#E0965B]/50"
+          "!bg-[#FF8412] shadow-[0px_0px_10px_5px] shadow-[#E0965B]/50"
         } absolute top-5 right-5 rounded-full`}
       ></div>
       <p className="text-center pt-5 font-[700] leading-5 text-[#211F2B]">

@@ -1,31 +1,36 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Temperature from "./Temperature";
 import TempSlide from "./TempSlide";
 
 function Stemp() {
+  const length = 2
   const [index, setIndex] = useState(0);
   useEffect(() => {
     const time = setTimeout(() => {
-      setIndex((prev) => prev=== 1 ? 0 : prev+1 )
-    },2500)
-  
+      setIndex((prev) => (prev === length ? 0 : prev + 1));
+    }, 2500);
+
     return () => {
-      clearInterval(time)
-    }
-  }, [index])
-  
+      clearInterval(time);
+    };
+  }, [index]);
+
   return (
-    <div className="slideshow overflow-hidden">
+    <div className="slideshow overflow-hidden relative -mr-[3.12rem] -left-[1.56rem]    ">
       <div
         className="slideshowSlider whitespace-nowrap  "
-        style={{
-          transform: `translate3d(${-index * 100}%,0,0)`,
-          transition: "ease 1000ms",
-        }}
+        style={
+          index !== 0
+            ? {
+                transform: `translate3d(${-index * 100}%,0,0)`,
+                transition: "ease 1000ms",
+              }
+            : { transform: `translate3d(${-index * 100}%,0,0)` }
+        }   
       >
         <Temperature />
-        <div className="inline-block">
-          <div className="grid grid-cols-3 gap-3 ">
+        <div className="inline-block  w-[23.5rem] mx-[1.56rem]">
+          <div className="grid grid-cols-3 gap-4  ">
             <TempSlide image="/home/sappointment.png" text="Book Appointment" />
             <TempSlide image="/home/sproblem.png" text="Choose Problem" />
             <TempSlide image="/home/smap.png" text="Clinic Map" />

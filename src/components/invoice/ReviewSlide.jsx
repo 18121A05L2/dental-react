@@ -20,10 +20,14 @@ function ReviewSlide() {
     <div className="slideshow overflow-hidden bg-[#F2F7FB]    ">
       <div
         className={`slideshowSlider whitespace-nowrap   `}
-        style={{
-          transform: `translate3d(${-index * 100}%, 0, 0)`,
-          transition: "ease 1000ms",
-        }}
+        style={
+          index !== 0
+            ? {
+                transform: `translate3d(${-index * 100}%,0,0)`,
+                transition: "ease 1000ms",
+              }
+            : { transform: `translate3d(${-index * 100}%,0,0)` }
+        }
       >
         {arr.map((src, index) => (
           <div className="inline-block ">

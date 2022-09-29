@@ -3,7 +3,7 @@ import React from "react";
 function Temperature() {
   const temperature = "27°C";
   return (
-    <div className="inline-block">
+    <div className="inline-block   px-[1.56rem]">
       <div className="temperature_section  w-[23.5rem]  ">
         <div>
           <div className="w-[12.8rem]  h-[8.5rem] bg-[linear-gradient(130.06deg,#ACA4FE_0%,#5C55AB_35.33%,#2B275A_75.68%)] rounded-[1.9rem] p-[1rem] mb-[1.3rem]">
