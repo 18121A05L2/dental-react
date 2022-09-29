@@ -27,19 +27,19 @@ function ClinicMap() {
 
       <div className="bg-[#2B275A] absolute top-[11rem] -left-[1.56rem] -right-[1.56rem] ">
         <div className="flex">
-          <div className="flex flex-col gap-3 max-w-[50%] pl-[1rem] py-[1.5rem]">
+          <div className="flex flex-col gap-3 max-w-[55%] pl-[1rem] py-[1.5rem]">
             <div className="flex items-center gap-2 ">
               <img
-                className="w-[2.5rem] h-[2.5rem]"
+                className="w-[1.25rem] h-[1.25rem]"
                 src="/home/smile.png"
                 alt="smile"
               ></img>
 
-              <h1 className="text-white font-[900] text-[0.94rem] ">
+              <h1 className="text-white font-[900] text-[1rem] leading-5 ">
                 DOCTOR-DENTIST
               </h1>
             </div>
-            <p className="font-[300] text-[0.625rem] max-w-[14.4rem] text-white  leading-3 pb-8   ">
+            <p className="font-[300] text-[0.625rem] max-w-[20rem] text-white  leading-[0.78rem] pb-8   ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
               turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
               nec fringilla accumsan, risus sem sollicitudin lacus.Lorem ipsum
@@ -59,9 +59,9 @@ function ClinicMap() {
               ></img>
             </div>
           </div>
-          <div className="w-[50%] relative">
+          <div className="">
             <img
-              className=" absolute bottom-[2.4525rem] scale-[1.5] right-[3.35rem] "
+              className="absolute right-0 bottom-0 w-[21rem]   "
               src="/home/smartphone.png"
               alt="phone"
             ></img>
