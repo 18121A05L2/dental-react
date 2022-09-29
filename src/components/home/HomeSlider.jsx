@@ -3,7 +3,7 @@ import Temperature from "./Temperature";
 import TempSlide from "./TempSlide";
 
 function Stemp() {
-  const length = 2
+  const length = 1
   const [index, setIndex] = useState(0);
   useEffect(() => {
     const time = setTimeout(() => {
